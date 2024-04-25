@@ -1,5 +1,6 @@
-import Heroes from "./_components/Heroes";
+import Footer from "./_components/Footer";
 import { Heading } from "./_components/heading";
+import Heroes from "./_components/heroes";
 
 export default function MarketingPage() {
   return (
@@ -8,6 +9,7 @@ export default function MarketingPage() {
         <Heading />
         <Heroes />
       </div>
+      <Footer />
     </div>
   );
 }
